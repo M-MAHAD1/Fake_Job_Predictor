@@ -31,7 +31,7 @@ Two classification models were trained:
   ```
 
   
-![Confusion Matrix](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/LR_confusion_Matrix.png)
+![LR_Confusion Matrix](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/LR_confusion_Matrix.png)
 
 * **Classification Report**:
 
@@ -51,6 +51,10 @@ Two classification models were trained:
   [[3394    0]
    [  77  105]]
   ```
+  
+  
+![REC_Confusion Matrix](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/RFC_confusion_Matrix.png)
+
 * **Classification Report**:
 
   ```
