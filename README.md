@@ -107,11 +107,11 @@ Once the user clicks **Predict**, the model predicts whether the job is **Fake**
 
 ## Screenshots
 
-### 1. Real Job Prediction
+### 1. Real Job
 
-![Real Job Prediction](images/real_job_screenshot.png)
+![Real Job Prediction](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/Pred1.PNG)
 
-### 2. Fake Job Prediction
+### 2. Fake Job
 
 ![Fake Job Prediction](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/pred2.PNG)
 
