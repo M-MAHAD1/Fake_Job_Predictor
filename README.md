@@ -119,10 +119,7 @@ Once the user clicks **Predict**, the model predicts whether the job is **Fake**
 
 ## Author
 
-Developed by Muhammad Mahad — Final Year CS Student.
+Developed by Muhammad Mahad
 
----
+muhammadmahad.cs@gmail.com
 
-## License
-
-This project is open source and free to use for educational purposes.
