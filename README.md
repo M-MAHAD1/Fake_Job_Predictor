@@ -29,6 +29,10 @@ Two classification models were trained:
   [[3203  191]
    [  24  158]]
   ```
+
+  
+![Confusion Matrix](https://github.com/M-MAHAD1/Fake_Job_Predictor/blob/main/LR_confusion_Matrix.png)
+
 * **Classification Report**:
 
   ```
