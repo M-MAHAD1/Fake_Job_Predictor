@@ -1,10 +1,10 @@
-Fake Job Detection App
+# Fake Job Detection App
 
- Overview
+## Overview
 
 This project is a Machine Learning-based web application that predicts whether a job posting is **Fake** or **Real**. It uses a Logistic Regression model trained on a labeled dataset of job listings. The app is deployed using **Streamlit**, providing a simple and interactive web interface for prediction.
 
- Dataset
+## Dataset
 
 The dataset used is `fake_job_postings.csv` which contains various job attributes such as:
 
@@ -15,21 +15,21 @@ The dataset used is `fake_job_postings.csv` which contains various job attribute
 * Presence of Company Logo
 * Screening Questions, etc.
 
- Models Trained
+## Models Trained
 
 Two classification models were trained:
 
- 1. Logistic Regression
+### 1. Logistic Regression
 
-* Training Accuracy: 95.93%
-* Testing Accuracy: 93.98%
-* Confusion Matrix:
-  
+* **Training Accuracy**: 95.93%
+* **Testing Accuracy**: 93.98%
+* **Confusion Matrix**:
+
   ```
   [[3203  191]
    [  24  158]]
   ```
-* Classification Report:
+* **Classification Report**:
 
   ```
   Precision    Recall   F1-Score
@@ -37,17 +37,17 @@ Two classification models were trained:
   Class 1:     0.45       0.87       0.60
   ```
 
- 2. Random Forest Classifier
+### 2. Random Forest Classifier
 
-* Training Accuracy: 99.99%
-* Testing Accuracy: 97.84%
-* Confusion Matrix:
+* **Training Accuracy**: 99.99%
+* **Testing Accuracy**: 97.84%
+* **Confusion Matrix**:
 
   ```
   [[3394    0]
    [  77  105]]
   ```
-* Classification Report:
+* **Classification Report**:
 
   ```
   Precision    Recall   F1-Score
@@ -55,11 +55,11 @@ Two classification models were trained:
   Class 1:     1.00       0.58       0.73
   ```
 
- Comparison:
+### Comparison:
 
-Although Random Forest gives higher accuracy, Logistic Regression detects more fake jobs (higher recall for Class 1). Therefore, Logistic Regression is chosen for the final model.
+Although Random Forest gives higher accuracy, **Logistic Regression detects more fake jobs** (higher recall for Class 1). Therefore, **Logistic Regression** is chosen for the final model.
 
- Final Model
+## Final Model
 
 The final model (`Logistic Regression`) is saved as a **pipeline** using `pickle` in the file:
 
@@ -71,27 +71,33 @@ This model file is used by the Streamlit app for prediction.
 
 ---
 
- Streamlit Web Interface
+## Streamlit Web Interface
 
- How to Run
+### How to Run
 
-1. Open the project folder in PyCharm or any code editor.
+1. Open the project folder in **PyCharm** or any code editor.
 2. Open the terminal.
 3. Run the app using:
 
    ```
    streamlit run App.py
    ```
-Note: If any library error occurs, install missing libraries using pip:
+4. If any library error occurs, install missing libraries using pip:
 
- Streamlit Inputs
+   ```
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Streamlit Inputs
 
 The app takes the following inputs:
 
-* Job Description (Text Area)
-* mployment Type (Dropdown)
-* Industry (Dropdown)
-* Telecommuting (0 or 1)
+* **Job Description** (Text Area)
+* **Employment Type** (Dropdown)
+* **Industry** (Dropdown)
+* **Telecommuting** (0 or 1)
 * **Has Company Logo** (0 or 1)
 * **Has Screening Questions** (0 or 1)
 
@@ -115,3 +121,8 @@ Once the user clicks **Predict**, the model predicts whether the job is **Fake**
 
 Developed by Muhammad Mahad — Final Year CS Student.
 
+---
+
+## License
+
+This project is open source and free to use for educational purposes.
