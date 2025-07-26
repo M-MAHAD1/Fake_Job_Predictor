@@ -36,7 +36,7 @@ Two classification models were trained:
 * **Classification Report**:
 
   ```
-  Precision    Recall   F1-Score
+             Precision    Recall   F1-Score
   Class 0:     0.99       0.94       0.97
   Class 1:     0.45       0.87       0.60
   ```
@@ -58,7 +58,7 @@ Two classification models were trained:
 * **Classification Report**:
 
   ```
-  Precision    Recall   F1-Score
+             Precision    Recall   F1-Score
   Class 0:     0.98       1.00       0.99
   Class 1:     1.00       0.58       0.73
   ```
@@ -90,11 +90,7 @@ This model file is used by the Streamlit app for prediction.
    ```
    streamlit run App.py
    ```
-4. If any library error occurs, install missing libraries using pip:
-
-   ```
-   pip install -r requirements.txt
-   ```
+Note: If any library error occurs, install missing libraries using pip
 
 ---
 
